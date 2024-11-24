@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #dff9ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto 0;
+  width: 400px;
+  min-width: 400px;
+  border: 6px solid black;
+  border-radius: 25px;
+}
+
+.top-display {
+  background-image: url(/images/day-scene.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  border-left: 6px solid #0a1a2a;
+  border-right: 6px solid #0a1a2a;
+  border-radius: 25px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.top-display input {
+  width: 200px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 38px;
+  border: 2px solid #0a1a2a;
+  border-radius: 10px;
+  background-color: #7f9387;
+  color: white;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.top-display button {
+  width: 40px;
+  height: 40px;
+  background-image: url(/icons/icons8-search-48.png);
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  border: 2px solid #0a1a2a;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+  background-color: #ee6956;
+  transition: 0.15s;
+}
+
+.top-display button:hover {
+  background-color: #0f2638;
+}
+
+.weather-info {
+  margin-top: 28px;
+}
+
+.weather-icon {
+  width: 85px;
+  height: 85px;
+  margin-right: 1px;
+  margin-top: 4px;
+}
+
+.weather-info h1 {
+  margin-top: 95px;
+  color: white;
+  font-size: 75px;
+}
+
+.weather-info h2 {
+  font-size: 35px;
+  color: white;
+  line-height: 35px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.weather-info h3 {
+  color: white;
+  font-size: 13px;
+}
+
+.bottom-display {
+  background-color: #0a1a2a;
+  width: 400px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  margin-top: -30px;
+  border-top: 2px dashed #0f2638;
+  overflow: auto;
+  height: 250px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 22px;
+  color: white;
+  gap: 20px;
+  border-bottom: 2px solid #0f2638;
+  padding-bottom: 5px;
+}
+
+.details img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.icons-credit {
+  color: rgb(136, 136, 136);
+  font-size: 15px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+a:link,
+a:visited {
+  color: #ee6956;
+}
